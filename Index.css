@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+input, button, textarea, select {
+    font: inherit;
+  }
+input:focus{
+    outline: none;
+    border: cornflowerblue solid 2px;
+    border-radius: 2px
+}
+
+input, h2{
+    margin: 2rem 4rem 1rem 2rem;
+}
+ 
+div{
+    position: relative;
+}
+
+ label{
+    position: absolute;
+    margin: 0 4rem 0 2rem;
+}
